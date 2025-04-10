@@ -58,9 +58,6 @@ D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\Api.pdb
 D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\Api.genruntimeconfig.cache
 D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\ref\Api.dll
 D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\dxkmslgr6e-dyjx89twm7.gz
-D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\y67e8agija-wfigtdterx.gz
-D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\dyphr1kddy-sq9pb89cjz.gz
-D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\p7ih6wzzf2-go58kpcovq.gz
 D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\Microsoft.OpenApi.dll
 D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\System.Net.Http.Formatting.dll
@@ -73,6 +70,10 @@ D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\Swashbuckle.AspN
 D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\Swashbuckle.Core.dll
 D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\WebActivatorEx.dll
 D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\Api.MvcApplicationPartsAssemblyInfo.cs
-D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\dvxclsadu5-mn3k5supfi.gz
-D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\lz2b12omdy-derc5t01nu.gz
 D:\Progamming\projects\Conuseсool\Conuseсool\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\Api.sourcelink.json
+D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\dyphr1kddy-40ftgg68oz.gz
+D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\y67e8agija-czbrwyk4vn.gz
+D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\p7ih6wzzf2-sfwpscpsd6.gz
+D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\dvxclsadu5-3nbtaqtgsj.gz
+D:\Progamming\projects\Conuseсool\Conuseсool\obj\Debug\net9.0\compressed\lz2b12omdy-ixnxgxgg9e.gz
