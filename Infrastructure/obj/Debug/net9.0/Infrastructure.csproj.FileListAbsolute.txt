@@ -1,0 +1,15 @@
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Domain.dll
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Domain.pdb
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

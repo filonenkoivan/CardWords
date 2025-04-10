@@ -1,0 +1,17 @@
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Application.deps.json
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Application.dll
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Application.pdb
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Domain.dll
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Infrastructure.dll
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Domain.pdb
+D:\Progamming\projects\Conuseсool\Application\bin\Debug\net9.0\Infrastructure.pdb
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.dll
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\refint\Application.dll
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\Application.pdb
+D:\Progamming\projects\Conuseсool\Application\obj\Debug\net9.0\ref\Application.dll

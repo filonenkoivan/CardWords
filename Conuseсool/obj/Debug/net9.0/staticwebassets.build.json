@@ -1,0 +1,2062 @@
+{
+  "Version": 1,
+  "Hash": "SY49UTYeLg2EwM2Bk9jYalJOjAJTU7tpHEEQsYyF4Bs=",
+  "Source": "Api",
+  "BasePath": "_content/Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Api\\wwwroot",
+      "Source": "Api",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dvxclsadu5-mn3k5supfi.gz",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "js/script#[.{fingerprint=mn3k5supfi}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\js\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "p0q23j1m2e",
+      "Integrity": "OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dxkmslgr6e-dyjx89twm7.gz",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "css/style#[.{fingerprint=dyjx89twm7}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4sb36b4tv5",
+      "Integrity": "nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dyphr1kddy-sq9pb89cjz.gz",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "register#[.{fingerprint=sq9pb89cjz}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\register.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "317ap1rzfn",
+      "Integrity": "Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\register.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\lz2b12omdy-derc5t01nu.gz",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "collection#[.{fingerprint=derc5t01nu}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\collection.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "317vk1am4u",
+      "Integrity": "qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\collection.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\p7ih6wzzf2-go58kpcovq.gz",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "profile#[.{fingerprint=go58kpcovq}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\profile.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "006t222xh5",
+      "Integrity": "YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\profile.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\y67e8agija-wfigtdterx.gz",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "index#[.{fingerprint=wfigtdterx}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "16jekgp4ep",
+      "Integrity": "ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\collection.html",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "collection#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "derc5t01nu",
+      "Integrity": "tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\collection.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\css\\style.css",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\index.html",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wfigtdterx",
+      "Integrity": "pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\js\\script.js",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mn3k5supfi",
+      "Integrity": "fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\profile.html",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "profile#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "go58kpcovq",
+      "Integrity": "wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile.html"
+    },
+    {
+      "Identity": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\register.html",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "register#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sq9pb89cjz",
+      "Integrity": "lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\register.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "collection.derc5t01nu.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\lz2b12omdy-derc5t01nu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000604960678"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 21:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "derc5t01nu"
+        },
+        {
+          "Name": "label",
+          "Value": "collection.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0="
+        }
+      ]
+    },
+    {
+      "Route": "collection.derc5t01nu.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\collection.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 21:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "derc5t01nu"
+        },
+        {
+          "Name": "label",
+          "Value": "collection.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0="
+        }
+      ]
+    },
+    {
+      "Route": "collection.derc5t01nu.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\lz2b12omdy-derc5t01nu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 21:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "derc5t01nu"
+        },
+        {
+          "Name": "label",
+          "Value": "collection.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w="
+        }
+      ]
+    },
+    {
+      "Route": "collection.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\lz2b12omdy-derc5t01nu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000604960678"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 21:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0="
+        }
+      ]
+    },
+    {
+      "Route": "collection.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\collection.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 21:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQ6brq1v8WY7XMMD0zmUvWE5wwAy2GUHMHbE4cdtXh0="
+        }
+      ]
+    },
+    {
+      "Route": "collection.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\lz2b12omdy-derc5t01nu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 21:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qXISk/Dfkq7J9JU/qQTejsMAV/ZA/SW9/Ho97xc7Z7w="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dxkmslgr6e-dyjx89twm7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.028571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dxkmslgr6e-dyjx89twm7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.dyjx89twm7.css",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dxkmslgr6e-dyjx89twm7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.028571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.dyjx89twm7.css",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.dyjx89twm7.css.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dxkmslgr6e-dyjx89twm7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nE8yPTtJd6+tlaH04X/GP2xItoqCQnNLkJVCmQHXS+Y="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\y67e8agija-wfigtdterx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000893655049"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1118"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:12:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:12:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\y67e8agija-wfigtdterx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:12:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk="
+        }
+      ]
+    },
+    {
+      "Route": "index.wfigtdterx.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\y67e8agija-wfigtdterx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000893655049"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1118"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:12:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfigtdterx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4="
+        }
+      ]
+    },
+    {
+      "Route": "index.wfigtdterx.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:12:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfigtdterx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pF0HF7VRfTqn/6sFaDG9QxYwueTc5nW37Jg0gvwQJn4="
+        }
+      ]
+    },
+    {
+      "Route": "index.wfigtdterx.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\y67e8agija-wfigtdterx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:12:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfigtdterx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ibwY3ZBLYMsOSZJCWPO3TZYOyIs0rPZMbuzp3Dmj2vk="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dvxclsadu5-mn3k5supfi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000391542678"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2553"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 20:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 20:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dvxclsadu5-mn3k5supfi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 20:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.mn3k5supfi.js",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dvxclsadu5-mn3k5supfi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000391542678"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2553"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 20:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mn3k5supfi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.mn3k5supfi.js",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 20:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mn3k5supfi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fnuI9WAYgGuevZUxQbSmMO6rHotKxpvz9Xv+EwYLFrM="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.mn3k5supfi.js.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dvxclsadu5-mn3k5supfi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 20:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mn3k5supfi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OY9bShwDZfc6S+hR5s7tMP8e6ct7CL5+XbpJqokwdYg="
+        }
+      ]
+    },
+    {
+      "Route": "profile.go58kpcovq.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\p7ih6wzzf2-go58kpcovq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000923361034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1082"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "go58kpcovq"
+        },
+        {
+          "Name": "label",
+          "Value": "profile.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y="
+        }
+      ]
+    },
+    {
+      "Route": "profile.go58kpcovq.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\profile.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "go58kpcovq"
+        },
+        {
+          "Name": "label",
+          "Value": "profile.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y="
+        }
+      ]
+    },
+    {
+      "Route": "profile.go58kpcovq.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\p7ih6wzzf2-go58kpcovq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1082"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "go58kpcovq"
+        },
+        {
+          "Name": "label",
+          "Value": "profile.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU="
+        }
+      ]
+    },
+    {
+      "Route": "profile.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\p7ih6wzzf2-go58kpcovq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000923361034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1082"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y="
+        }
+      ]
+    },
+    {
+      "Route": "profile.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\profile.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wCbyVtD9CIl20O+Z85Lh94aniab7WnXG0MH/fFW5B9Y="
+        }
+      ]
+    },
+    {
+      "Route": "profile.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\p7ih6wzzf2-go58kpcovq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1082"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YFJJnGxTaLXJ70k1mIRjfMWxU895/hPj2+bxzCVbCsU="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dyphr1kddy-sq9pb89cjz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000821018062"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk="
+        }
+      ]
+    },
+    {
+      "Route": "register.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dyphr1kddy-sq9pb89cjz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg="
+        }
+      ]
+    },
+    {
+      "Route": "register.sq9pb89cjz.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dyphr1kddy-sq9pb89cjz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000821018062"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq9pb89cjz"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk="
+        }
+      ]
+    },
+    {
+      "Route": "register.sq9pb89cjz.html",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\wwwroot\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq9pb89cjz"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lJii89Dkp0FNrBToOgITF+IjWRsIJE3H98lbFl5iDxk="
+        }
+      ]
+    },
+    {
+      "Route": "register.sq9pb89cjz.html.gz",
+      "AssetFile": "D:\\Progamming\\projects\\Conuseсool\\Conuseсool\\obj\\Debug\\net9.0\\compressed\\dyphr1kddy-sq9pb89cjz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq9pb89cjz"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fw8H9Sv4PLdYhDxfjKjutaD+pz+w1gu63MldtflcxXg="
+        }
+      ]
+    }
+  ]
+}

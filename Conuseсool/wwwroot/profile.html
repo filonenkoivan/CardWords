@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Form</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        html{
+            height: calc(100vh - 40px);
+        }
+        .header {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .form-container {
+            max-width: 550px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+            .form-container h2 {
+                text-align: center;
+            }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group label {
+                display: block;
+                font-weight: bold;
+            }
+
+            .form-group input {
+                width: calc(100% - 20px);
+                padding: 8px;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            .form-group button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+                .form-group button:hover {
+                    background-color: #45a049;
+                }
+
+        .collections-container h2{
+            margin-top: 0;
+        }
+        .form-box{
+            max-width: 600px;
+            margin: 0 auto;
+            flex-grow: 1;
+            max-height: 550px;
+        }
+        .collections-container {
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            max-height: 445px;
+            overflow: hidden;
+            min-width: 550px;
+
+        }
+        .collection-content{
+            max-height: 400px;
+            transition: height 0.5s ease-out;
+            overflow-y: auto;
+        }
+        .collection {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+        .collection-top{
+            flex-basis: 50%;
+        }
+        .first-words {
+            flex-basis: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" id="userName">Loading...</div>
+    <div class="form-container">
+        <h2>Create a New Collection</h2>
+        <form id="collectionForm">
+            <div class="form-group">
+                <label for="collectionName">Collection Name</label>
+                <input type="text" id="collectionName" name="collectionName" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Create Collection</button>
+            </div>
+        </form>
+    </div>
+    <div class="form-box">
+        <div class="collections-container" id="collectionsContainer">
+            <h2>Existing Collections</h2>
+            <div class="collections" id = "collections">
+                <div class="collection-content"></div>
+            </div>
+        </div>
+    </div>
+    <a href="/logout" class="logout">Log out!</a>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Progamming\\projects\\Conuse\u0441ool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|solutionrelative:conuse\u0441ool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\appdatacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdatacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Progamming\\projects\\Conuse\u0441ool\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Progamming\\projects\\Conuse\u0441ool\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|solutionrelative:conuse\u0441ool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C19F34-73BC-4EF3-A427-7DB8A3D6978A}|Domain\\Domain.csproj|d:\\progamming\\projects\\conuse\u0441ool\\domain\\models\\cardcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C19F34-73BC-4EF3-A427-7DB8A3D6978A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\cardcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\interfaces\\ipasswordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ipasswordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\collectionsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\collectionsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C19F34-73BC-4EF3-A427-7DB8A3D6978A}|Domain\\Domain.csproj|d:\\progamming\\projects\\conuse\u0441ool\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C19F34-73BC-4EF3-A427-7DB8A3D6978A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\passwordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\passwordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C19F34-73BC-4EF3-A427-7DB8A3D6978A}|Domain\\Domain.csproj|d:\\progamming\\projects\\conuse\u0441ool\\domain\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C19F34-73BC-4EF3-A427-7DB8A3D6978A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\models\\dtos\\collectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|solutionrelative:conuse\u0441ool\\models\\dtos\\collectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\interfaces\\icollectionsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icollectionsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-08T14:52:07.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-08T14:51:56.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\appsettings.json",
+              "RelativeDocumentMoniker": "Conuse\u0441ool\\appsettings.json",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\appsettings.json",
+              "RelativeToolTip": "Conuse\u0441ool\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T12:48:13.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPasswordHasherService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\IPasswordHasherService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IPasswordHasherService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\IPasswordHasherService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IPasswordHasherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:53:08.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordHasherService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\PasswordHasherService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PasswordHasherService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\PasswordHasherService.cs",
+              "RelativeToolTip": "Application\\Services\\PasswordHasherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:52:52.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T21:10:00.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T15:08:18.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:51:11.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:41:25.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CardCollection.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Domain\\Models\\CardCollection.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\CardCollection.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Domain\\Models\\CardCollection.cs",
+              "RelativeToolTip": "Domain\\Models\\CardCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:20:45.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CollectionDTO.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Models\\DTOs\\CollectionDTO.cs",
+              "RelativeDocumentMoniker": "Conuse\u0441ool\\Models\\DTOs\\CollectionDTO.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Models\\DTOs\\CollectionDTO.cs",
+              "RelativeToolTip": "Conuse\u0441ool\\Models\\DTOs\\CollectionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:20:29.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICollectionSortService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\ICollectionSortService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ICollectionSortService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\ICollectionSortService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ICollectionSortService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:14:27.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CollectionSortService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionSortService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CollectionSortService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionSortService.cs",
+              "RelativeToolTip": "Application\\Services\\CollectionSortService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:14:04.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Domain\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Card.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Domain\\Models\\Card.cs",
+              "RelativeToolTip": "Domain\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:44:48.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CollectionService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CollectionService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionService.cs",
+              "RelativeToolTip": "Application\\Services\\CollectionService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:36:46.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Program.cs",
+              "RelativeDocumentMoniker": "Conuse\u0441ool\\Program.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Program.cs",
+              "RelativeToolTip": "Conuse\u0441ool\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:10:40.211Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

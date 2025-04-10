@@ -1,0 +1,12 @@
+D:\Progamming\projects\Conuseсool\Conuseсool\wwwroot\js\script.js
+D:\Progamming\projects\Conuseсool\Conuseсool\wwwroot\css\style.css
+D:\Progamming\projects\Conuseсool\Conuseсool\wwwroot\register.html
+D:\Progamming\projects\Conuseсool\Conuseсool\wwwroot\collection.html
+D:\Progamming\projects\Conuseсool\Conuseсool\wwwroot\profile.html
+D:\Progamming\projects\Conuseсool\Conuseсool\wwwroot\index.html
+wwwroot\collection.html
+wwwroot\css\style.css
+wwwroot\index.html
+wwwroot\js\script.js
+wwwroot\profile.html
+wwwroot\register.html

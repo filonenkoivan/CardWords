@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .input {
+            width: calc(100%);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            width: 100%;
+            padding: 10px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+            .button:hover {
+                background: #1d4ed8;
+            }
+
+        .link {
+            display: block;
+            margin-top: 10px;
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .title{
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 class="title">Registration</h2>
+        <form id="registrationForm">
+            <input type="text" name="name" class="input" placeholder="Enter your name" required>
+            <input type="password" name="password" class="input" placeholder="Enter your password" required>
+            <input type="password" name="confirmPassword" class="input" placeholder="Confirm your password" required>
+            <button type="submit" class="button">Register</button>
+        </form>
+        <a href="/login.html" class="link">Already have an account? Login</a>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        document.getElementById("registrationForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries());
+
+            if (data.password !== data.confirmPassword) {
+                swal("Error","Passwords do not match!", "error");
+                return;
+            }
+
+            try {
+                const response = await fetch("/register", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        name: data.name,
+                        password: data.password
+                    })
+                });
+                if (response.ok) {
+                    location.href = "/index.html";
+                } else {
+                    swal("Error","A user with that name already exists", "error");
+                }
+
+            } catch (error) {
+                console.error("Error:", error);
+            }
+        });
+
+    </script>
+</body>
+</html>
