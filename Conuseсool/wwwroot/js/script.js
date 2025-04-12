@@ -3,7 +3,7 @@
 }
 
 window.onload = async () => {
-  const response = await fetch("/collection", {
+  const response = await fetch("collection/collection", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -57,7 +57,7 @@ document
       name: document.getElementById("collectionName").value,
     };
 
-    const response = await fetch("/collection", {
+    const response = await fetch("collection/collection", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -156,7 +156,7 @@ document.addEventListener("click", async function (event) {
     if (parent) {
       let parentData = parent.getAttribute("data-id");
 
-      const response = await fetch(`/collection/${parentData}`, {
+      const response = await fetch(`collection/collection/${parentData}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
@@ -231,7 +231,7 @@ document.addEventListener("click", async function (event) {
               decsription: formData.get("decsription"),
             };
 
-            const response = await fetch(`/words/${globalId}`, {
+            const response = await fetch(`collection/words/${globalId}`, {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

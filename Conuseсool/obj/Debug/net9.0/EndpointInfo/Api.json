@@ -27,26 +27,6 @@
             "description": "OK"
           }
         }
-      },
-      "post": {
-        "tags": [
-          "Api"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserRequest"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
     "/login.html": {
@@ -61,10 +41,10 @@
         }
       }
     },
-    "/register": {
+    "/Auth/login": {
       "post": {
         "tags": [
-          "Api"
+          "Auth"
         ],
         "requestBody": {
           "content": {
@@ -72,9 +52,18 @@
               "schema": {
                 "$ref": "#/components/schemas/UserRequest"
               }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -83,10 +72,53 @@
         }
       }
     },
-    "/collection": {
+    "/Auth/logout": {
       "get": {
         "tags": [
-          "Api"
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Collection/collection": {
+      "get": {
+        "tags": [
+          "Collection"
         ],
         "responses": {
           "200": {
@@ -96,7 +128,7 @@
       },
       "post": {
         "tags": [
-          "Api"
+          "Collection"
         ],
         "requestBody": {
           "content": {
@@ -104,40 +136,18 @@
               "schema": {
                 "$ref": "#/components/schemas/CollectionRequest"
               }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "patch": {
-        "tags": [
-          "Api"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
+            },
+            "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Card"
+                "$ref": "#/components/schemas/CollectionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CollectionRequest"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -146,10 +156,10 @@
         }
       }
     },
-    "/collection/{id}": {
+    "/Collection/collection/{id}": {
       "delete": {
         "tags": [
-          "Api"
+          "Collection"
         ],
         "parameters": [
           {
@@ -167,12 +177,52 @@
             "description": "OK"
           }
         }
+      },
+      "patch": {
+        "tags": [
+          "Collection"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Card"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Card"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Card"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
-    "/collection/{id}/{sort}": {
+    "/Collection/collection/{id}/{sort}": {
       "get": {
         "tags": [
-          "Api"
+          "Collection"
         ],
         "parameters": [
           {
@@ -195,22 +245,15 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CardCollection"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
     },
-    "/words/{id}": {
+    "/Collection/words/{id}": {
       "post": {
         "tags": [
-          "Api"
+          "Collection"
         ],
         "parameters": [
           {
@@ -229,9 +272,18 @@
               "schema": {
                 "$ref": "#/components/schemas/CardRequest"
               }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardRequest"
+              }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -241,7 +293,7 @@
       },
       "patch": {
         "tags": [
-          "Api"
+          "Collection"
         ],
         "parameters": [
           {
@@ -260,9 +312,18 @@
               "schema": {
                 "$ref": "#/components/schemas/Card"
               }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Card"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Card"
+              }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -304,31 +365,6 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CardCollection": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "cardList": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Card"
-            },
-            "nullable": true
-          },
-          "createdTime": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "id": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
