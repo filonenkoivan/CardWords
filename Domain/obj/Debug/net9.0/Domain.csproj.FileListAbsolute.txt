@@ -10,3 +10,4 @@ D:\Progamming\projects\Conuseсool\Domain\obj\Debug\net9.0\Domain.dll
 D:\Progamming\projects\Conuseсool\Domain\obj\Debug\net9.0\refint\Domain.dll
 D:\Progamming\projects\Conuseсool\Domain\obj\Debug\net9.0\Domain.pdb
 D:\Progamming\projects\Conuseсool\Domain\obj\Debug\net9.0\ref\Domain.dll
+D:\Progamming\projects\Conuseсool\Domain\obj\Debug\net9.0\Domain.sourcelink.json
