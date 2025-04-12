@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Api.Controllers
 {
@@ -26,6 +27,8 @@ namespace Api.Controllers
         //додати норм авторизацію
         //authorize
 
+
+        //[Authorize]
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UserRequest user)
         {

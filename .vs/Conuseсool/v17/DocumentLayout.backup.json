@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Progamming\\projects\\Conuse\u0441ool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|solutionrelative:conuse\u0441ool\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\repositories\\collectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\collectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\collectionsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\collectionsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|solutionrelative:conuse\u0441ool\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|solutionrelative:conuse\u0441ool\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EF75BC8-7A36-48BE-B786-4E2660F05A6F}|Conuse\u0441ool\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\conuse\u0441ool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,41 +51,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CollectionRepository.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\CollectionRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CollectionRepository.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\CollectionRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\CollectionRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:54:41.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollectionSortService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionSortService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CollectionSortService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionSortService.cs",
+              "RelativeToolTip": "Application\\Services\\CollectionSortService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:54:21.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollectionService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CollectionService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionService.cs",
+              "RelativeToolTip": "Application\\Services\\CollectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:54:20.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:51:08.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:50:31.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Conuse\u0441ool\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Conuse\u0441ool\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T23:12:59.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CollectionController.cs",
               "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Controllers\\CollectionController.cs",
               "RelativeDocumentMoniker": "Conuse\u0441ool\\Controllers\\CollectionController.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Controllers\\CollectionController.cs*",
-              "RelativeToolTip": "Conuse\u0441ool\\Controllers\\CollectionController.cs*",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwEQAAAASAAAAAAAAAA==",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Controllers\\CollectionController.cs",
+              "RelativeToolTip": "Conuse\u0441ool\\Controllers\\CollectionController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowHgAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T22:36:56.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T22:36:56.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Program.cs",
               "RelativeDocumentMoniker": "Conuse\u0441ool\\Program.cs",
               "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Conuse\u0441ool\\Program.cs",
               "RelativeToolTip": "Conuse\u0441ool\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwLIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T17:10:40.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T17:10:40.211Z"
             }
           ]
         }
