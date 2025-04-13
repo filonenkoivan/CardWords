@@ -3,7 +3,7 @@
 }
 
 window.onload = async () => {
-  const response = await fetch("collection/collection", {
+  const response = await fetch("collection/collections", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -51,52 +51,46 @@ window.onload = async () => {
 
 document
   .getElementById("collectionForm")
-  .addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const formData = {
-      name: document.getElementById("collectionName").value,
-    };
-
-    const response = await fetch("collection/collection", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
-
-    if (response.ok) {
-
-      const newCollection = await response.json();
-      console.log(newCollection.item);
-
-      if (newCollection.item == null) {
-        const script = document.createElement("script");
-        script.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
-        script.onload = () => {
-          swal("Error",`${newCollection.message}`, "error");
+    .addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const formData = {
+            name: document.getElementById("collectionName").value,
         };
-        document.head.appendChild(script);
-      } else {
 
-        const cont = document.querySelector(".collection-content");
-
-        const startHeight = cont.clientHeight;
-
-        addToCollection(newCollection.item);
-
-        const endHeight = cont.scrollHeight;
-
-        cont.style.height = startHeight + "px";
-
-        requestAnimationFrame(() => {
-            cont.style.height = endHeight + "px";
+        const response = await fetch("collection/collections", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
         });
+        const newCollection = await response.json();
+        if (response.ok) {
+            const cont = document.querySelector(".collection-content");
 
-        document.querySelector("#collectionName").value = ""; 
-        checkEmpty();
-      }
-    }
+            const startHeight = cont.clientHeight;
+
+            addToCollection(newCollection.item);
+
+            const endHeight = cont.scrollHeight;
+
+            cont.style.height = startHeight + "px";
+
+            requestAnimationFrame(() => {
+                cont.style.height = endHeight + "px";
+            });
+
+            document.querySelector("#collectionName").value = "";
+            checkEmpty();
+
+        } else {
+            const script = document.createElement("script");
+            script.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+            script.onload = () => {
+                swal("Error", `${newCollection.message}`, "error");
+            };
+            document.head.appendChild(script);
+        }
   });
 
 // HTML
@@ -156,7 +150,7 @@ document.addEventListener("click", async function (event) {
     if (parent) {
       let parentData = parent.getAttribute("data-id");
 
-      const response = await fetch(`collection/collection/${parentData}`, {
+      const response = await fetch(`collection/collections/${parentData}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

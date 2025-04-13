@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Domain.Models;
 using Microsoft.AspNetCore.Authorization;
+using Application.Services;
+using Infrastructure.Providers;
 
 namespace Api.Controllers
 {
@@ -14,31 +16,30 @@ namespace Api.Controllers
     [Route("[controller]")]
     public class AuthController : ControllerBase
     {
-
-        IPasswordHasherService hasher;
+        IPasswordHasher hasher;
         IUserService service;
-        public AuthController(IPasswordHasherService _hasher, IUserService _service)
+        JwtProvider jwtProvider;
+        public AuthController(IPasswordHasher _hasher, IUserService _service, JwtProvider _jwtService)
         {
             hasher = _hasher;
             service = _service;
+            jwtProvider = _jwtService;
         }
-        //додати норм авторизацію
-        //authorize
+
 
 
         //[Authorize]
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] UserRequest user)
+        public async Task<IActionResult> Login([FromBody] UserRequest user, CancellationToken cancellationToken)
         {
-            var currentUser = await service.GetUserByNameAsync(user.Name);
+            var currentUser = await service.GetUserByNameAsync(user.Name, cancellationToken);
 
             if (currentUser != null && hasher.HashVerify(user.Password, currentUser.Password))
             {
-                var Claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Name) };
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(Claims, "Cookies");
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+                string token = jwtProvider.GenerateToken(currentUser);
+                HttpContext.Response.Cookies.Append("crumble-cookies", token);
 
-                return Ok(new {success = true});
+                return Ok(new {succes = true});
             }
             return Unauthorized(new {success = false, message = "Invalid credentials"});
         }
@@ -46,20 +47,20 @@ namespace Api.Controllers
         [HttpGet("logout")]
         public async Task<IActionResult> Logout()
         {
-            await HttpContext.SignOutAsync();
-            return Redirect("/index.html");
+            HttpContext.Response.Cookies.Delete("crumble-cookies");;
+            return Redirect("/login.html");
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] UserRequest user)
+        public async Task<IActionResult> Register([FromBody] UserRequest user, CancellationToken cancellationToken)
         {
             Console.WriteLine("Hello world!");
-            var allUsers = await service.GetUsers();
+            var allUsers = await service.GetUsers(cancellationToken);
             if (allUsers.Any(x => x.Name == user.Name))
             {
                 return BadRequest(new {message = "User already exists" });
             }
-            service.AddUser(new User { Name = user.Name, Password = hasher.HashPassword(user.Password) });
+            await service.AddUser(new User { Name = user.Name, Password = hasher.HashPassword(user.Password) }, cancellationToken);
             return Ok(new {message = "New user created"});
         }
     }

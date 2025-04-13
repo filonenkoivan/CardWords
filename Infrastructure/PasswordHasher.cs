@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Services
+namespace Infrastructure.Services
 {
-    public class PasswordHasherService : IPasswordHasherService
+    public class PasswordHasher : IPasswordHasher
     {
         public string HashPassword(string password)
         {

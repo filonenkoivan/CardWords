@@ -18,29 +18,57 @@ namespace Infrastructure.Repositories
             _db = db;
         }
 
-        public async Task UpdateCollection(User user, CardCollection list)
+        public async Task UpdateCollection(User user, CardCollection list, CancellationToken cancellationToken = default)
         {
-            var currentUser = await _db.Users.Include(x => x.Collections).ThenInclude(x => x.CardList).FirstOrDefaultAsync(x => x.Id == user.Id);
+            var currentUser = await _db.Users
+                .Include(x => x.Collections)
+                .ThenInclude(x => x.CardList)
+                .FirstOrDefaultAsync(x => x.Id == user.Id);
             currentUser.Collections.Add(list);
-            await _db.SaveChangesAsync();
+            await _db.SaveChangesAsync(cancellationToken);
         }
-        public async Task<CardCollection> GetCollection(User user, int id)
+        public async Task<CardCollection> GetCollection(User user, int id, CancellationToken cancellationToken = default)
         {
-            return _db.Users.FirstOrDefault(x => x.Id == user.Id).Collections.FirstOrDefault(x => x.Id == id);
+            var collectionUser = await _db.Users
+                .Include(x => x.Collections)
+                .FirstOrDefaultAsync(x => x.Id == user.Id, cancellationToken: cancellationToken);
+
+            if (collectionUser == null) return null;
+                
+            return collectionUser.Collections.FirstOrDefault(x => x.Id == id);
         }
 
-        public async Task Delete(User user, int id)
+        public async Task Delete(User user, int id, CancellationToken cancellationToken = default)
         {
+            var collectionUser = await _db.Users
+                .Include(u => u.Collections)
+                .FirstOrDefaultAsync(x => x.Id == user.Id, cancellationToken: cancellationToken);
 
-            _db.Users.FirstOrDefault(x => x.Id == user.Id).Collections.FirstOrDefault(x => x.Id == id);
-            _db.Users.FirstOrDefault(x => x.Id == user.Id).Collections.Remove(_db.Users.FirstOrDefault(x => x.Id == user.Id).Collections.FirstOrDefault(x => x.Id == id));
+            if (collectionUser == null) return;
 
-            await _db.SaveChangesAsync();
+            var collectionToRemove = collectionUser.Collections.FirstOrDefault(x => x.Id == id);
+            if (collectionToRemove == null) return;
+
+            collectionUser.Collections.Remove(collectionToRemove);
+
+            await _db.SaveChangesAsync(cancellationToken);
         }
-        public async Task AddCard(User user, Card card, int id)
+        public async Task AddCard(User user, Card card, int id, CancellationToken cancellationToken = default)
         {
-            user.Collections.FirstOrDefault(x => x.Id == id).CardList.Add(card);
-            await _db.SaveChangesAsync();
+
+            var collectionUser = await _db.Users
+                .Include(x => x.Collections)
+                .ThenInclude(x => x.CardList)
+                .FirstOrDefaultAsync(x => x.Id == user.Id, cancellationToken);
+
+            if (collectionUser == null) return;
+
+            var collection = collectionUser?.Collections?.FirstOrDefault(x => x.Id == id);
+            if (collection == null) return;
+
+            collection?.CardList?.Add(card);
+
+            await _db.SaveChangesAsync(cancellationToken);
         }
     }
 }

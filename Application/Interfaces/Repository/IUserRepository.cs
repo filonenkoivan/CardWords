@@ -10,10 +10,10 @@ namespace Infrastructure.Interfaces
 {
     public interface IUserRepository
     {
-        Task AddUser(User user);
+        Task AddUser(User user, CancellationToken cancellationToken);
 
-        Task<List<User>> GetAllUsers();
+        Task<List<User>> GetAllUsers(CancellationToken cancellationToken);
 
-        Task<User> GetUserByNameAsync(string name);
+        Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken);
     }
 }

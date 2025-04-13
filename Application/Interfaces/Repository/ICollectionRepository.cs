@@ -9,12 +9,12 @@ namespace Infrastructure.Interfaces
 {
     public interface ICollectionRepository
     {
-        Task UpdateCollection(User user, CardCollection list);
+        Task UpdateCollection(User user, CardCollection list, CancellationToken cancellationToken);
 
-        Task Delete(User user, int id);
+        Task Delete(User user, int id, CancellationToken cancellationToken);
 
-        Task AddCard(User user, Card card, int id);
+        Task AddCard(User user, Card card, int id, CancellationToken cancellationToken);
 
-        Task<CardCollection> GetCollection(User user, int id);
+        Task<CardCollection> GetCollection(User user, int id, CancellationToken cancellationToken);
     }
 }
