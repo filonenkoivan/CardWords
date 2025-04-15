@@ -41,7 +41,7 @@ namespace Application.Services
             collection.CardList = newCollection;
 
             return collection;
-            //сортує і видає лише ті елементи які ми типу не вивчили ще
+            //сортує і видає лише ті елементи які ми не вивчили ще
         }
     }
 }

@@ -13,3 +13,6 @@ D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructur
 D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\Progamming\projects\Conuseсool\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Application.dll
+D:\Progamming\projects\Conuseсool\Infrastructure\bin\Debug\net9.0\Application.pdb

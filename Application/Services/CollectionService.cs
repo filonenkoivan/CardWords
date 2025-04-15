@@ -16,23 +16,23 @@ namespace Application.Services
         {
             _repository = repository;
         }
-        public async Task UpdateCollection(User user, CardCollection list)
+        public async Task UpdateCollection(User user, CardCollection list, CancellationToken cancellationToken)
         {
-            await _repository.UpdateCollection(user, list);
+            await _repository.UpdateCollection(user, list, cancellationToken);
         }
 
-        public async Task AddCardToCollecton(User user, Card card, int id)
+        public async Task AddCardToCollecton(User user, Card card, int id, CancellationToken cancellationToken)
         {
-            _repository.AddCard(user, card, id);
+            await _repository.AddCard(user, card, id, cancellationToken);
         }
 
-        public async Task<CardCollection> GetCollection(User user, int id)
+        public async Task<CardCollection> GetCollection(User user, int id, CancellationToken cancellationToken)
         {
-            return await _repository.GetCollection(user, id);
+            return await _repository.GetCollection(user, id, cancellationToken);
         }
-        public async Task DeleteCollection(User user, int id)
+        public async Task DeleteCollection(User user, int id, CancellationToken cancellationToken)
         {
-            await _repository.Delete(user, id);
+            await _repository.Delete(user, id, cancellationToken);
         }
     }
 }

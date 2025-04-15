@@ -17,21 +17,21 @@ namespace Application.Services
         {
             _repository = repository;
         }
-        public async Task AddUser(User user)
+        public async Task AddUser(User user, CancellationToken cancellationToken)
         {
-            await _repository.AddUser(user);
+            await _repository.AddUser(user, cancellationToken);
         }
 
 
-        public async Task<List<User>> GetUsers()
+        public async Task<List<User>> GetUsers(CancellationToken cancellationToken)
         {
-            return await _repository.GetAllUsers();
+            return await _repository.GetAllUsers(cancellationToken);
         }
 
 
-        public Task<User> GetUserByNameAsync(string name)
+        public Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken, bool includeAllData = true)
         {
-            return _repository.GetUserByNameAsync(name);
+            return _repository.GetUserByNameAsync(name, cancellationToken, includeAllData);
         }
     }
 }

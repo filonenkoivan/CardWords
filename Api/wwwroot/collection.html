@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Collection</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .card {
+            width: 200px;
+            height: 120px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+        .card-inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            background: lightgray;
+        }
+        .card-back {
+            transform: rotateY(180deg);
+        }
+        .description {
+            display: none;
+            margin-top: 10px;
+            padding: 5px;
+            border: 1px solid gray;
+            background: white;
+        }
+        #cardContainer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .playgame{
+            position:  absolute;
+            right: 50px;
+            bottom: 50px;
+            cursor:  pointer;
+            border: 2px solid black;
+            padding: 5px 15px;
+        }
+        .popup{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            display: none;
+        }
+        .popup-content{
+            width: 40%;
+            height: 60%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 1;
+            top: 50%;
+            background-color: white;
+            z-index: 7;
+        }
+        .popup-wrapper{
+            opacity: 0.5;
+            background-color: black;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 6;
+        }
+    </style>
+    <script>
+        function showDescription(id) {
+            var desc = document.getElementById('desc-' + id);
+            desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1 class = "title">Card Collection</h1>
+    <div id="cardContainer">
+        <buton class="playgame">Check your brain!</buton>
+        <div class="popup">
+            <div class="popup-wrapper"></div>
+            <div class="popup-content">
+                <div class="popup-container"></div>
+                <div class="popup-nav">
+                    <button class="next-word"></button>
+                    <button class="prevous-word"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let wordsCollection;
+        document.querySelector(".playgame").addEventListener("click", () => {
+            document.querySelector(".popup").style = "display: block";
+            if(wordsCollection != null){
+                let temporaryItems = wordsCollection;
+                let randomNumbers = temporaryItems.length;
+                let randomNumber = getRandomInt(randomNumbers);
+                temporaryItems.splice(randomNumber, 1);
+
+                let card = wordsCollection[randomNumber];
+
+
+                const container = document.querySelector(".popup-container");
+
+                const cardDiv = document.createElement("div");
+                cardDiv.className = "card";
+                cardDiv.innerHTML = `
+                    <div class="card-inner"">
+                        <div class="card-front">${card.frontSideText}</div>
+                        <div class="card-back">${card.backSideText}</div>
+                    </div>
+                    <div class="description" id="desc-${card.id}">${card.decsription}</div>
+                `;
+                container.appendChild(cardDiv);
+            }
+        })
+        function getRandomInt(number){
+            return Math.floor(Math.random() * number);
+        }
+        async function loadCollection() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const collectionId = urlParams.get("id");
+
+            if (!collectionId) {
+                document.body.innerHTML = "<h1>Collection ID not provided</h1>";
+                return;
+            }
+            
+            try {
+                const response = await fetch(`collection/collections/${collectionId}`, {
+                    method: "GET",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                });
+
+                if (!response.ok) throw new Error("Collection not found");
+
+                const collection = await response.json();
+                console.log(collection);
+                wordsCollection = collection.cardList;
+                const title = document.querySelector(".title");
+                title.innerHTML = collection.name;
+
+                const container = document.getElementById("cardContainer");
+                collection.cardList.forEach(card => {
+                const cardDiv = document.createElement("div");
+                cardDiv.className = "card";
+                cardDiv.innerHTML = `
+                    <div class="card-inner" onclick="showDescription(${card.id})">
+                        <div class="card-front">${card.frontSideText}</div>
+                        <div class="card-back">${card.backSideText}</div>
+                    </div>
+                    <div class="description" id="desc-${card.id}">${card.decsription}</div>
+                `;
+                container.appendChild(cardDiv);
+        });
+            } catch (error) {
+                document.body.innerHTML = `<h1>${error.message}</h1>`;
+            }
+        }
+        window.onload = loadCollection;
+
+
+    </script>
+</body>
+</html>

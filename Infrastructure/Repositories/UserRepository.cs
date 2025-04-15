@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
@@ -24,28 +25,39 @@ namespace Infrastructure.Repositories
         }
 
 
-        public async Task AddUser(User user)
+        public async Task AddUser(User user, CancellationToken cancellationToken = default)
         {
-            try
-            {
-                await _db.Users.AddAsync(user);
-                await _db.SaveChangesAsync();
+            try{
+                await _db.Users.AddAsync(user, cancellationToken: cancellationToken);
+                await _db.SaveChangesAsync(cancellationToken: cancellationToken);
             }
-            catch(Exception e)
+            catch(OperationCanceledException e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine($"error: {e}, action canceled");
             }
+
         }
 
-        public async Task<List<User>> GetAllUsers()
+        public async Task<List<User>> GetAllUsers(CancellationToken cancellationToken = default)
         {
-            return await _db.Users.Include(x => x.Collections).ThenInclude(x => x.CardList).ToListAsync();
+            return await _db.Users
+                .Include(x => x.Collections)
+                .ThenInclude(x => x.CardList).ToListAsync(cancellationToken);
         }
 
 
-        public async Task<User> GetUserByNameAsync(string name)
+        public async Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken = default, bool includeAllData = true)
         {
-            return _db.Users.Include(x => x.Collections).ThenInclude(x => x.CardList).FirstOrDefault(x => x.Name == name);
+
+            if (includeAllData == false)
+            {
+                return await _db.Users.FirstOrDefaultAsync(x => x.Name == name, cancellationToken);
+            }
+
+            return await _db.Users
+                .Include(x => x.Collections)
+                .ThenInclude(x => x.CardList)
+                .FirstOrDefaultAsync(x => x.Name == name, cancellationToken: cancellationToken);
         }
 
     }
