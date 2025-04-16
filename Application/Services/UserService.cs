@@ -22,16 +22,9 @@ namespace Application.Services
             await _repository.AddUser(user, cancellationToken);
         }
 
-
-        public async Task<List<User>> GetUsers(CancellationToken cancellationToken)
+        public async Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken, bool includeAllData = true)
         {
-            return await _repository.GetAllUsers(cancellationToken);
-        }
-
-
-        public Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken, bool includeAllData = true)
-        {
-            return _repository.GetUserByNameAsync(name, cancellationToken, includeAllData);
+            return await _repository.GetUserByNameAsync(name, cancellationToken, includeAllData);
         }
     }
 }

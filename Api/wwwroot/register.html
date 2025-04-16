@@ -79,10 +79,10 @@
             const formData = new FormData(this);
             const data = Object.fromEntries(formData.entries());
 
-            if (data.password !== data.confirmPassword) {
-                swal("Error","Passwords do not match!", "error");
-                return;
-            }
+            // if (data.password !== data.confirmPassword) {
+            //     swal("Error","Passwords do not match!", "error");
+            //     return;
+            // }
 
             try {
                 const response = await fetch("/auth/register", {
@@ -92,13 +92,27 @@
                     },
                     body: JSON.stringify({
                         name: data.name,
-                        password: data.password
+                        password: data.password,
+                        passwordConfirm: data.confirmPassword
                     })
                 });
+
+                const resp = await response.json();
+
                 if (response.ok) {
                     location.href = "/login.html";
-                } else {
-                    swal("Error","A user with that name already exists", "error");
+                }
+                else if(response.status == 409){
+                    swal("Error", resp.message);
+                } 
+                else {
+                    let errorString = "";
+
+                    resp.forEach(el => {
+                        errorString += el.message + "\n"
+                    });
+
+                    swal("Error", errorString);
                 }
 
             } catch (error) {
