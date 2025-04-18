@@ -38,20 +38,14 @@ namespace Infrastructure.Repositories
 
         }
 
-        public async Task<List<User>> GetAllUsers(CancellationToken cancellationToken = default)
-        {
-            return await _db.Users
-                .Include(x => x.Collections)
-                .ThenInclude(x => x.CardList).ToListAsync(cancellationToken);
-        }
-
 
         public async Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken = default, bool includeAllData = true)
         {
 
             if (includeAllData == false)
             {
-                return await _db.Users.FirstOrDefaultAsync(x => x.Name == name, cancellationToken);
+                return await _db.Users.AsNoTracking().FirstOrDefaultAsync(x => x.Name == name, cancellationToken);
+                //if error check asnotracking method
             }
 
             return await _db.Users

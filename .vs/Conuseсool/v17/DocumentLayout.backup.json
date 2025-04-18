@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "D:\\Progamming\\projects\\Conuse\u0441ool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\api\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\repositories\\collectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\collectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\interfaces\\iquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\models\\response\\quizcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\models\\response\\quizcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\appdatacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdatacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|d:\\progamming\\projects\\conuse\u0441ool\\infrastructure\\repositories\\collectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E9F69B-EAC7-4451-A669-A09A3882303D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\collectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\services\\collectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\interfaces\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\interfaces\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\api\\validation\\customvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\validation\\customvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|d:\\progamming\\projects\\conuse\u0441ool\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\models\\requests\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\models\\requests\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|d:\\progamming\\projects\\conuse\u0441ool\\application\\interfaces\\repository\\icollectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A618F2C2-416C-4FD9-8F86-779B31BFF997}|Application\\Application.csproj|solutionrelative:application\\interfaces\\repository\\icollectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,103 +66,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CustomValidator.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Validation\\CustomValidator.cs",
+              "RelativeDocumentMoniker": "Api\\Validation\\CustomValidator.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Validation\\CustomValidator.cs",
+              "RelativeToolTip": "Api\\Validation\\CustomValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:59:25.237Z"
+              "WhenOpened": "2025-04-16T10:50:33.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IQuizService.cs",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\IQuizService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IQuizService.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\IQuizService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IQuizService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:34:16.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CollectionRepository.cs",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\CollectionRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CollectionRepository.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\CollectionRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\CollectionRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:31:58.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuizCard.cs",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Models\\Response\\QuizCard.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Response\\QuizCard.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Models\\Response\\QuizCard.cs",
-              "RelativeToolTip": "Application\\Models\\Response\\QuizCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:27:59.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuizService.cs",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\QuizService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\QuizService.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\QuizService.cs*",
-              "RelativeToolTip": "Application\\Services\\QuizService.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwEYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:24:24.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CollectionController.cs",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Controllers\\CollectionController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\CollectionController.cs",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Controllers\\CollectionController.cs",
-              "RelativeToolTip": "Api\\Controllers\\CollectionController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAmwH8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T18:09:51.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
               "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Program.cs",
               "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAIwGEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T17:03:37.508Z",
+              "WhenOpened": "2025-04-16T10:09:49.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Models\\Requests\\UserRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Requests\\UserRequest.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Models\\Requests\\UserRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Requests\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:31:05.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollectionService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CollectionService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\CollectionService.cs",
+              "RelativeToolTip": "Application\\Services\\CollectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:28:22.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:39:18.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:57:08.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:38:41.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:38:03.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDataContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:32:42.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICollectionRepository.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\Repository\\ICollectionRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repository\\ICollectionRepository.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\Repository\\ICollectionRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repository\\ICollectionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:44:36.255Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Api.csproj",
-              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Api.csproj",
-              "RelativeDocumentMoniker": "Api\\Api.csproj",
-              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Api\\Api.csproj",
-              "RelativeToolTip": "Api\\Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-14T09:57:44.617Z"
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Application\\Interfaces\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:43:27.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CollectionRepository.cs",
+              "DocumentMoniker": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\CollectionRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CollectionRepository.cs",
+              "ToolTip": "D:\\Progamming\\projects\\Conuse\u0441ool\\Infrastructure\\Repositories\\CollectionRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\CollectionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T22:31:58.318Z"
             }
           ]
         }

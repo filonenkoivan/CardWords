@@ -12,8 +12,6 @@ namespace Infrastructure.Interfaces
     {
         Task AddUser(User user, CancellationToken cancellationToken);
 
-        Task<List<User>> GetAllUsers(CancellationToken cancellationToken);
-
         Task<User> GetUserByNameAsync(string name, CancellationToken cancellationToken, bool includeAllData = true);
     }
 }

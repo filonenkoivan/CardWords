@@ -30,11 +30,12 @@ namespace Infrastructure.Repositories
         public async Task<CardCollection> GetCollection(User user, int id, CancellationToken cancellationToken = default)
         {
             var collectionUser = await _db.Users
+                .AsNoTracking()
                 .Include(x => x.Collections)
                 .FirstOrDefaultAsync(x => x.Id == user.Id, cancellationToken: cancellationToken);
+            //if error check asnotracking method
 
             if (collectionUser == null) return null;
-                
             return collectionUser.Collections.FirstOrDefault(x => x.Id == id);
         }
 
