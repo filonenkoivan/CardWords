@@ -1,0 +1,4 @@
+.ansbutton:disabled,
+.ansbutton[disabled] {
+  color: black;
+}
