@@ -3,6 +3,8 @@ import { Field, Fieldset, Input, Button } from '@chakra-ui/react';
 import { PasswordInput } from '../ui/password-input';
 import { Link } from 'react-router-dom';
 import { toaster } from '../ui/toaster';
+import { GoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from 'jwt-decode';
 
 export default function Login({ userVerify, getCookie }) {
   const [nameValue, setNameValue] = useState('');
@@ -76,10 +78,7 @@ export default function Login({ userVerify, getCookie }) {
           </Field.HelperText>
         </Field.Root>
         <Field.Root required>
-          <Field.Label>
-            {/* <Field.RequiredIndicator /> */}
-            Your password
-          </Field.Label>
+          <Field.Label>Your password</Field.Label>
           <PasswordInput
             value={passwordValue}
             onChange={(e) => setPasswordValue(e.target.value)}
@@ -92,12 +91,66 @@ export default function Login({ userVerify, getCookie }) {
         <Fieldset.ErrorText>
           Some fields are invalid. Please check them.
         </Fieldset.ErrorText>
-        <Link
-          to="register"
-          style={{ marginTop: '0', fontSize: '14px', textAlign: 'left' }}
+        <div
+          style={{
+            display: 'flex',
+            gap: '25px',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}
         >
-          Register
-        </Link>
+          <Link
+            to="register"
+            style={{ marginTop: '0', fontSize: '14px', textAlign: 'left' }}
+          >
+            Register
+          </Link>
+
+          <div
+            style={{
+              width: '40px',
+              height: '40px',
+              overflow: 'hidden',
+              borderRadius: '4px',
+            }}
+          >
+            <GoogleLogin
+              theme="filled_black"
+              type="icon"
+              nonce="google-login"
+              onSuccess={(credentialResponse) => {
+                const user = jwtDecode(credentialResponse.credential);
+                let name = user.given_name ?? '' + user.family_name ?? '';
+                name = name + Math.floor(Math.random() * 9000);
+                const data = {
+                  Name: name,
+                };
+                fetch('http://localhost:5268/auth/google', {
+                  method: 'POST',
+                  body: JSON.stringify(data),
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  credentials: 'include',
+                })
+                  .then((response) => response.json())
+                  .then((data) => {
+                    if (data.success) {
+                      userVerify(getCookie('crumble-cookies'));
+                    } else {
+                      console.log('Google login failed');
+                    }
+                  })
+                  .catch((error) => {
+                    console.error('Error:', error);
+                  });
+              }}
+              onError={() => {
+                console.log('Login Failed');
+              }}
+            />
+          </div>
+        </div>
       </Fieldset.Root>
     </form>
   );

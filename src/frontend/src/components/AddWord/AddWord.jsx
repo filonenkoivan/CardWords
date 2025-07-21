@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import {
   Button,
@@ -15,11 +15,10 @@ export default function AddWord({ collectionId, setCollectionId, fetchData }) {
   const [frontSide, setFrontSide] = useState('');
   const [backSide, setBackSide] = useState('');
   const [description, setDescription] = useState('');
+  const [translation, setTranslation] = useState('');
   const createNewWord = async (e) => {
     e.preventDefault();
 
-    // if (frontSide == '') {
-    // }
     const data = {
       FrontSideText: frontSide,
       BackSideText: backSide,
@@ -42,8 +41,25 @@ export default function AddWord({ collectionId, setCollectionId, fetchData }) {
       setBackSide('');
       setFrontSide('');
       setDescription('');
+      setTranslation([]);
     }
   };
+  async function getTranslation(word) {
+    const translateResponse = await fetch(
+      `http://localhost:5268/translate?word=${word}`,
+      {
+        method: 'get',
+
+        credentials: 'include',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+    const translateData = await translateResponse.json();
+    setTranslation(translateData.translations);
+  }
+
   return (
     <div>
       <Dialog.Root open={!!collectionId}>
@@ -64,7 +80,14 @@ export default function AddWord({ collectionId, setCollectionId, fetchData }) {
                       <Input
                         required
                         value={frontSide}
-                        onChange={(e) => setFrontSide(e.target.value)}
+                        onChange={(e) => {
+                          setFrontSide(e.target.value);
+                          if (e.target.value.length > 3) {
+                            getTranslation(e.target.value);
+                          } else if (e.target.value.length === 0) {
+                            setTranslation([]);
+                          }
+                        }}
                       />
                     </Field.Root>
                     <Field.Root required>
@@ -76,6 +99,24 @@ export default function AddWord({ collectionId, setCollectionId, fetchData }) {
                         value={backSide}
                         onChange={(e) => setBackSide(e.target.value)}
                       />
+                      <div>
+                        <ul>
+                          {translation.length > 0 &&
+                            translation.map((item, index) => (
+                              <li
+                                key={index}
+                                onClick={() => setBackSide(item)}
+                                style={{
+                                  cursor: 'pointer',
+                                  fontSize: '18px',
+                                  padding: '5px 0px',
+                                }}
+                              >
+                                {item}
+                              </li>
+                            ))}
+                        </ul>
+                      </div>
                     </Field.Root>
                     <Field.Root>
                       <Field.Label>Description</Field.Label>

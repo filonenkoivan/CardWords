@@ -11,12 +11,10 @@ namespace Application.Services
 {
     public class UserStatsService
     {
-        //можливо змінити потім код, внісши замість чисел енами
         public (int, RankExp) GetNextRank(int exp)
         {
             int expForNextRank = 0;
             RankExp nextRank = RankExp.Beginner;
-            // exp = 500
 
             switch (exp)
             {

@@ -9,6 +9,7 @@ using Domain.Models;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Infrastructure.AppDataContext;
+using Infrastructure.Configuration;
 using Infrastructure.Interfaces;
 using Infrastructure.Providers;
 using Infrastructure.Repositories;
@@ -23,14 +24,19 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 
+DotNetEnv.Env.Load("../.env");
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddEnvironmentVariables();
 
-
+builder.Services.Configure<AiConfiguration>(builder.Configuration);
+builder.Services.Configure<ApiTranslationConfiguration>(builder.Configuration);
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -46,10 +52,14 @@ builder.Services.AddScoped<IdentificationService>();
 builder.Services.Configure<AuthSettings>(builder.Configuration.GetSection("AuthSettings"));
 builder.Services.AddAuth(builder.Configuration);
 builder.Services.AddScoped<IValidator<UserRequest>, CustomValidator>();
+builder.Services.AddScoped<IAiTranslateService, AiTranslateService>();
+builder.Services.AddScoped<IApiTranslationService, ApiTranslationService>();
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(x => {
+builder.Services.AddHttpClient();
+builder.Services.AddSwaggerGen(x =>
+{
     var security = new OpenApiSecurityScheme()
     {
         Name = HeaderNames.Authorization,
@@ -76,7 +86,8 @@ builder.Services.AddCors(opt =>
         policyBuilder.AllowCredentials();
     });
 });
-string? connectionString = builder.Configuration.GetConnectionString("ConuseDb");
+
+string? connectionString = builder.Configuration.GetValue<string>("DB_CONNECTION");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
 
 var app = builder.Build();

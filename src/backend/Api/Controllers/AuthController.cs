@@ -47,15 +47,15 @@ namespace Api.Controllers
                 string token = jwtProvider.GenerateToken(currentUser);
                 HttpContext.Response.Cookies.Append("crumble-cookies", token);
 
-                return Ok(new {succes = true});
+                return Ok(new { succes = true });
             }
-            return Unauthorized(new {success = false, message = "Incorrect username or password. Please try again." });
+            return Unauthorized(new { success = false, message = "Incorrect username or password. Please try again." });
         }
 
         [HttpGet("logout")]
         public async Task<IActionResult> Logout()
         {
-            HttpContext.Response.Cookies.Delete("crumble-cookies");;
+            HttpContext.Response.Cookies.Delete("crumble-cookies"); ;
             return NoContent();
         }
 
@@ -69,7 +69,7 @@ namespace Api.Controllers
             {
 
                 var errors = validationResult.Errors.
-                    Select(x => new { Field = x.PropertyName, Message = x.ErrorMessage});
+                    Select(x => new { Field = x.PropertyName, Message = x.ErrorMessage });
                 foreach (var item in errors)
                 {
                     Console.WriteLine(item.Field);
@@ -82,7 +82,7 @@ namespace Api.Controllers
 
             if (currentUser != null)
             {
-                return Conflict(new {Message = "User already exists" });
+                return Conflict(new { Message = "User already exists" });
             }
 
             User newUser = new User()
@@ -96,7 +96,32 @@ namespace Api.Controllers
 
             };
             await service.AddUser(newUser, cancellationToken);
-            return Ok(new {message = "New user created"});
+            return Ok(new { message = "New user created" });
         }
+
+        [HttpPost("google")]
+        public async Task<IActionResult> LoginGoogle([FromBody] UserRequest user, CancellationToken cancellationToken)
+        {
+
+            var currentUser = await service.GetUserByNameAsync(user.Name, cancellationToken, false);
+
+            if (currentUser == null)
+            {
+                var newUser = new User()
+                {
+                    Name = user.Name,
+                    Stats = new UserStats()
+                    {
+                        Name = user.Name
+                    }
+                };
+                await service.AddUser(newUser, cancellationToken);
+                currentUser = await service.GetUserByNameAsync(user.Name, cancellationToken, false);
+            }
+            string token = jwtProvider.GenerateToken(currentUser);
+            HttpContext.Response.Cookies.Append("crumble-cookies", token);
+            return Ok(new { success = true });
+        }
+
     }
 }
