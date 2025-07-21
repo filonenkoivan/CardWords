@@ -4,18 +4,19 @@ import Card from '../WordCard/Card';
 import { Flex } from '@chakra-ui/react';
 import Controll from './Controll';
 import Quiz from '../Quiz/Quiz';
-import { Show } from '@chakra-ui/react';
+import apiUrl from '../../environment/environment';
 
 export default function CollectionPage({ setCollectionId, fetchData }) {
   const { id } = useParams('id');
   const [collection, setCollection] = useState([]);
+  const [userId, setUserId] = useState(0);
   const [collectionName, setCollectionName] = useState('');
   const [quizOpen, setQuizOpen] = useState(false);
 
   const fetchRequest = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5268/wordCollection/collections/${id}`,
+        `${apiUrl}wordCollection/collections/${id}`,
         {
           method: 'GET',
           credentials: 'include',
@@ -23,13 +24,14 @@ export default function CollectionPage({ setCollectionId, fetchData }) {
       );
 
       const data = await response.json();
-
+      console.log(data);
       if (response.ok) {
         setCollection(data.cardList);
         setCollectionName(data.name);
+        setUserId(data.userId);
       }
     } catch (error) {
-      console.log('server error');
+      console.log(error);
     }
   };
 
@@ -60,6 +62,7 @@ export default function CollectionPage({ setCollectionId, fetchData }) {
       <Controll
         setCollectionId={setCollectionId}
         id={id}
+        userId={userId}
         fetchRequest={fetchRequest}
         setQuizOpen={setQuizOpen}
         collection={collection}

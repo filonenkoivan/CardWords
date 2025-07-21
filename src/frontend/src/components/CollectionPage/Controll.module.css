@@ -1,0 +1,9 @@
+.controllSave {
+  background-color: transparent;
+}
+.controllSave:hover svg g {
+  fill: rgb(150, 150, 150) !important;
+}
+.controllSave svg g {
+  transition: fill 0.3s ease-in-out;
+}

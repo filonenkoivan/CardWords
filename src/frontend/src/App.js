@@ -71,7 +71,7 @@ function App() {
               <Route
                 path="/"
                 element={
-                  <Flex>
+                  <Flex style={{ height: '100%' }}>
                     {userState && (
                       <>
                         <User stats={userStats} userVerify={setUserState} />

@@ -35,10 +35,6 @@ namespace Application.Services
                 return UpdateCollectionResult.Conflict;
 
             }
-            foreach(var i in list.CardList)
-            {
-                Console.WriteLine(i.Id);
-            }
 
             await _repository.UpdateCollection(currentUser, list, cancellationToken);
 
@@ -54,8 +50,7 @@ namespace Application.Services
         }
         public async Task<CardCollection> GetCollection(int id, CancellationToken cancellationToken)
         {
-            User currentUser = await identificationService.GetUser(cancellationToken);
-            return await _repository.GetCollection(currentUser, id, cancellationToken);
+            return await _repository.GetCollection(id, cancellationToken);
         }
         public async Task DeleteCollection(int id, CancellationToken cancellationToken)
         {

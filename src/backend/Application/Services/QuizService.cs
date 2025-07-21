@@ -17,7 +17,7 @@ namespace Application.Services
         {
             User user = await identification.GetUser(cancellationToken);
 
-            var collection = await repository.GetCollection(user, collectionId, cancellationToken);
+            var collection = await repository.GetCollection(collectionId, cancellationToken);
 
             Card randomCard = GetRandomCard(collection);
 
@@ -26,7 +26,7 @@ namespace Application.Services
             List<string> answers = new List<string>();
 
 
-            while(answers.Count < 2)
+            while (answers.Count < 2)
             {
                 var randomCardForAnswer = GetRandomCard(collection).BackSideText;
 

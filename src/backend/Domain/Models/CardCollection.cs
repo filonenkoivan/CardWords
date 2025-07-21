@@ -21,6 +21,7 @@ namespace Domain.Models
         [JsonIgnore]
         public User? User { get; set; }
         public int UserId { get; set; }
+        public int? PreviousId { get; set; }
 
     }
 }

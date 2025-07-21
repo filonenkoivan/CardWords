@@ -7,9 +7,8 @@ namespace Api.Models.DTOs
         public string? Name { get; set; }
         public List<Card>? CardList { get; set; } = new List<Card>();
         public string CreatedTime { get; set; }
-
         public int Id { get; set; }
-
+        public int UserId { get; set; }
     }
     public static class CollectionModelExtensions
     {
@@ -20,8 +19,8 @@ namespace Api.Models.DTOs
                 Name = card.Name,
                 CardList = card.CardList,
                 CreatedTime = card.CreatedTime.ToString("F"),
-                Id = card.Id
-
+                Id = card.Id,
+                UserId = card.UserId
             };
         }
     }

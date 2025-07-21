@@ -19,7 +19,8 @@ namespace Infrastructure.Providers
         {
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.Name)
+                new Claim(ClaimTypes.Name, user.Name),
+                new Claim("userId", user.Id.ToString())
             };
             var jwtToken = new JwtSecurityToken(
                 expires: DateTime.UtcNow.AddHours(options.Value.Expires),

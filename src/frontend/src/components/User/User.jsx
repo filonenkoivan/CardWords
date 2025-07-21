@@ -1,6 +1,7 @@
 import { Flex, HStack } from '@chakra-ui/react';
 import React from 'react';
 import { Progress } from '@chakra-ui/react';
+import Search from '../Search/Search';
 
 export default function User({ stats, userVerify }) {
   const logOut = async () => {
@@ -13,7 +14,18 @@ export default function User({ stats, userVerify }) {
     }
   };
   return (
-    <div style={{ paddingLeft: '15px', textAlign: 'left' }}>
+    <div
+      style={{
+        height: '100%',
+        paddingLeft: '15px',
+        textAlign: 'left',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        paddingBottom: '15px',
+      }}
+    >
+      <Search />
       <Flex direction={'column'}>
         <span>Hi, {stats.name}!</span>
         <span>You added {stats.wordsAdded} words</span>
