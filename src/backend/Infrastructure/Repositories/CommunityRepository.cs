@@ -34,7 +34,7 @@ public class CommunityRepository : ICommunityRepository
     public async Task<bool> SaveCollection(int id, int userId, CancellationToken ct)
     {
         var user = await _db.Users.FirstOrDefaultAsync(x => x.Id == userId, ct);
-        if (user.Collections.Any(x => x.Id == id))
+        if (user.Collections.Any(x => x.PreviousId == id))
         {
             return false;
         }
@@ -57,7 +57,8 @@ public class CommunityRepository : ICommunityRepository
 
         var savedCollection = new CardCollection(userCollection.Name)
         {
-            CardList = savedWords
+            CardList = savedWords,
+            PreviousId = id
         };
 
         user.Collections.Add(savedCollection);
